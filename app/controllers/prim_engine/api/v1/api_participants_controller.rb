@@ -69,7 +69,7 @@ module PrimEngine
 
       # Only allow a trusted parameter "white list" through.
       def participant_api_params
-        params.require(:participant_api).permit(:email, :first_name, :last_name, :date_of_birth, :phone)
+        params.require(:api_participant).permit(:email, :first_name, :last_name, :date_of_birth, :phone)
       end
   end
 end

@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api_participants_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="api_participants_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="7" selection-start="509" selection-end="509" vertical-scroll-proportion="-13.2" vertical-offset="0" max-vertical-offset="1458">
+            <state line="66" column="47" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.4091904" vertical-offset="1001" max-vertical-offset="1458">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_participant.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="api_participant.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.2587269" vertical-offset="0" max-vertical-offset="487">
+            <state line="6" column="3" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="participants_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1260">
+            <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="773" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
         <option value="$PROJECT_DIR$/prim_engine.gemspec" />
         <option value="$PROJECT_DIR$/lib/prim_engine/version.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140624192417_add_first_name_col_to_participants.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb" />
         <option value="$PROJECT_DIR$/test/dummy/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/prim_engine/api_participant.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb" />
       </list>
     </option>
   </component>
@@ -655,7 +655,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="409" y="256" width="1445" height="906" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -772,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/prim_engine/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
@@ -814,16 +807,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="509" selection-end="509" vertical-scroll-proportion="-13.2" vertical-offset="0" max-vertical-offset="1458">
+        <state line="6" column="3" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.2587269" vertical-offset="0" max-vertical-offset="487">
+        <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="47" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.4091904" vertical-offset="1001" max-vertical-offset="1458">
           <folding />
         </state>
       </provider>
