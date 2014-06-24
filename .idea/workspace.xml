@@ -35,6 +35,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="api_participant.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.2587269" vertical-offset="0" max-vertical-offset="487">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="256" selection-end="256" vertical-scroll-proportion="0.2587269" vertical-offset="0" max-vertical-offset="487">
+            <state line="16" column="8" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -112,11 +121,11 @@
         <option value="$PROJECT_DIR$/lib/prim_engine/engine.rb" />
         <option value="$PROJECT_DIR$/prim_engine.gemspec" />
         <option value="$PROJECT_DIR$/lib/prim_engine/version.rb" />
-        <option value="$PROJECT_DIR$/app/models/prim_engine/api_participant.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140624192417_add_first_name_col_to_participants.rb" />
         <option value="$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb" />
         <option value="$PROJECT_DIR$/test/dummy/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/prim_engine/api_participant.rb" />
       </list>
     </option>
   </component>
@@ -646,7 +655,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="409" y="256" width="1445" height="906" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -749,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.18480493" vertical-offset="0" max-vertical-offset="487">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/prim_engine/api_participant_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="25" selection-start="119" selection-end="119" vertical-scroll-proportion="0.140625" vertical-offset="0" max-vertical-offset="512">
@@ -791,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="509" selection-end="509" vertical-scroll-proportion="-13.2" vertical-offset="0" max-vertical-offset="1458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
@@ -814,7 +809,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="256" selection-end="256" vertical-scroll-proportion="0.2587269" vertical-offset="0" max-vertical-offset="487">
+        <state line="16" column="8" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="509" selection-end="509" vertical-scroll-proportion="-13.2" vertical-offset="0" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.2587269" vertical-offset="0" max-vertical-offset="487">
           <folding />
         </state>
       </provider>

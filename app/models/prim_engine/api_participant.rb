@@ -1,3 +1,5 @@
+require 'active_resource'
+
 module PrimEngine
   class ApiParticipant < ActiveResource::Base
     self.site = "http://localhost:3001/v1/"
