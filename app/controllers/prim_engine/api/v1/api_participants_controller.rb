@@ -26,7 +26,7 @@ module PrimEngine
     def create
       convert_to_participant
       @participant.save
-      redirect_to '/sites/1/pages/home'
+      render json: @participant.to_json, status: :created
     end
 
     # PATCH/PUT /api_participants/1
