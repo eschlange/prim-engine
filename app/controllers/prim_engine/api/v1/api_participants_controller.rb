@@ -1,7 +1,7 @@
 require_dependency "prim_engine/application_controller"
 
 module PrimEngine
-  class ApiParticipantsController < ApplicationController
+  class Api::V1::ApiParticipantsController < ApplicationController
     before_action :set_participant_api, only: [:show, :edit, :update, :destroy]
 
     # GET /api_participants
