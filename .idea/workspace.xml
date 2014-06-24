@@ -50,6 +50,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="api_participants_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/prim_engine/api_participants_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="20140624145604_create_prim_engine_participants.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140624145604_create_prim_engine_participants.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,6 +107,7 @@
         <option value="$PROJECT_DIR$/test/helpers/prim_engine/api_participants_helper_test.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/prim_engine/api_participant.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/prim_engine/api_participants_helper.rb" />
         <option value="$PROJECT_DIR$/lib/prim_engine/version.rb" />
       </list>
     </option>
@@ -231,6 +241,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prim_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prim_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prim_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -685,6 +717,13 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/prim_engine/api_participants_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>

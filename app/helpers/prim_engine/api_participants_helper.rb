@@ -1,4 +1,4 @@
 module PrimEngine
-  module ParticipantApisHelper
+  module ApiParticipantsHelper
   end
 end
