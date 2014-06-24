@@ -1,4 +1,4 @@
-require_dependency "prim_engine/application_controller"
+require_dependency 'prim_engine/application_controller'
 
 module PrimEngine
   class Api::V1::ApiParticipantsController < ApplicationController
@@ -6,7 +6,7 @@ module PrimEngine
 
     # GET /api_participants
     def index
-      @api_participants = ApiParticipant.all
+      @participants = Participant.all
     end
 
     # GET /api_participants/1
@@ -15,7 +15,7 @@ module PrimEngine
 
     # GET /api_participants/new
     def new
-      @participant_api = ApiParticipant.new
+      @participant = Participant.new
     end
 
     # GET /api_participants/1/edit
@@ -24,10 +24,9 @@ module PrimEngine
 
     # POST /api_participants
     def create
-      @participant_api = ApiParticipant.new(participant_api_params)
-
-      if @participant_api.save
-        redirect_to @participant_api, notice: 'Participant api was successfully created.'
+      convert_to_participant
+      if @participant.save
+        redirect_to @participant, notice: 'Participant api was successfully created.'
       else
         render :new
       end
@@ -35,8 +34,13 @@ module PrimEngine
 
     # PATCH/PUT /api_participants/1
     def update
-      if @participant_api.update(participant_api_params)
-        redirect_to @participant_api, notice: 'Participant api was successfully updated.'
+      if @participant.update(
+        email: participant_api_params[:email],
+        first_name: participant_api_params[:first_name],
+        last_name: participant_api_params[:last_name],
+        date_of_birth: participant_api_params[:date_of_birth],
+        phone: participant_api_params[:phone])
+        redirect_to @participant, notice: 'Participant api was successfully updated.'
       else
         render :edit
       end
@@ -44,19 +48,28 @@ module PrimEngine
 
     # DELETE /api_participants/1
     def destroy
-      @participant_api.destroy
+      @participant.destroy
       redirect_to api_participants_url, notice: 'Participant api was successfully destroyed.'
     end
 
     private
       # Use callbacks to share common setup or constraints between actions.
       def set_participant_api
-        @participant_api = ApiParticipant.find(params[:id])
+        @participant = Participant.find(params[:id])
+      end
+
+      def convert_to_participant
+        @participant = Participant.new
+        @participant.email = participant_api_params[:email]
+        @participant.first_name = participant_api_params[:first_name]
+        @participant.last_name = participant_api_params[:last_name]
+        @participant.date_of_birth = participant_api_params[:date_of_birth]
+        @participant.phone = participant_api_params[:phone]
       end
 
       # Only allow a trusted parameter "white list" through.
       def participant_api_params
-        params.require(:participant_api).permit(:email, :last_name, :date_of_birth, :phone)
+        params.require(:participant_api).permit(:email, :first_name, :last_name, :date_of_birth, :phone)
       end
   end
 end
