@@ -29,7 +29,7 @@
       <file leaf-file-name="api_participants_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="3" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.7242888" vertical-offset="839" max-vertical-offset="1296">
+            <state line="32" column="14" selection-start="707" selection-end="707" vertical-scroll-proportion="0.6695843" vertical-offset="270" max-vertical-offset="1314">
               <folding />
             </state>
           </provider>
@@ -821,9 +821,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="26" selection-end="26" vertical-scroll-proportion="0.036960986" vertical-offset="0" max-vertical-offset="487">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="3" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.7242888" vertical-offset="839" max-vertical-offset="1296">
+        <state line="32" column="14" selection-start="707" selection-end="707" vertical-scroll-proportion="0.6695843" vertical-offset="270" max-vertical-offset="1314">
           <folding />
         </state>
       </provider>

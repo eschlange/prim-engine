@@ -26,6 +26,7 @@ module PrimEngine
     def create
       convert_to_participant
       @participant.save
+      redirect_to '/sites/1/pages/home'
     end
 
     # PATCH/PUT /api_participants/1
