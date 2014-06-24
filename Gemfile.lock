@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    prim_engine (0.0.4)
+    prim_engine (0.0.5)
       rails (~> 4.1.1)
 
 GEM
