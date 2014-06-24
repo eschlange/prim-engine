@@ -1,0 +1,31 @@
+<h1>Listing participant_apis</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Last name</th>
+      <th>Date of birth</th>
+      <th>Phone</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @participant_apis.each do |participant_api| %>
+      <tr>
+        <td><%= participant_api.email %></td>
+        <td><%= participant_api.last_name %></td>
+        <td><%= participant_api.date_of_birth %></td>
+        <td><%= participant_api.phone %></td>
+        <td><%= link_to 'Show', participant_api %></td>
+        <td><%= link_to 'Edit', edit_participant_api_path(participant_api) %></td>
+        <td><%= link_to 'Destroy', participant_api, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Participant api', new_participant_api_path %>
