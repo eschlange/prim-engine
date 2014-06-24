@@ -1,7 +1,7 @@
 require_dependency "prim_engine/application_controller"
 
 module PrimEngine
-  class ParticipantsController < ApplicationController
+  class Api::V1::ParticipantsController < ApplicationController
     before_action :set_participant, only: [:show, :edit, :update, :destroy]
 
     skip_before_filter :verify_authenticity_token

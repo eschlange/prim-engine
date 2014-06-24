@@ -41,10 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/prim_engine/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="37" selection-end="37" vertical-scroll-proportion="0.036960986" vertical-offset="0" max-vertical-offset="487">
+            <state line="1" column="19" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="participants_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.11088296" vertical-offset="0" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -110,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/helpers/prim_engine/api_participants_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/prim_engine/api/v1/api_participants_controller.rb" />
         <option value="$PROJECT_DIR$/lib/prim_engine/version.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb" />
       </list>
     </option>
   </component>
@@ -687,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="108" selection-end="129" vertical-scroll-proportion="-1.4763861" vertical-offset="773" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/prim_engine/api_participant.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="113" selection-end="113" vertical-scroll-proportion="0.14784394" vertical-offset="0" max-vertical-offset="487">
@@ -731,7 +734,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/prim_engine/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="37" selection-end="37" vertical-scroll-proportion="0.036960986" vertical-offset="0" max-vertical-offset="487">
+        <state line="1" column="19" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.11088296" vertical-offset="0" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
