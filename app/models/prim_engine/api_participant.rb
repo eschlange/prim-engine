@@ -1,6 +1,5 @@
 module PrimEngine
   class ApiParticipant < ActiveResource::Base
-    validates :email, :presence => true
-    validates_uniqueness_of :email
+    self.site = "http://localhost:3001"
   end
 end
