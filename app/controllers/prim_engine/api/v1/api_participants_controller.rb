@@ -25,31 +25,22 @@ module PrimEngine
     # POST /api_participants
     def create
       convert_to_participant
-      if @participant.save
-        redirect_to @participant, notice: 'Participant api was successfully created.'
-      else
-        render :new
-      end
+      @participant.save
     end
 
     # PATCH/PUT /api_participants/1
     def update
-      if @participant.update(
+      @participant.update(
         email: participant_api_params[:email],
         first_name: participant_api_params[:first_name],
         last_name: participant_api_params[:last_name],
         date_of_birth: participant_api_params[:date_of_birth],
         phone: participant_api_params[:phone])
-        redirect_to @participant, notice: 'Participant api was successfully updated.'
-      else
-        render :edit
-      end
     end
 
     # DELETE /api_participants/1
     def destroy
       @participant.destroy
-      redirect_to api_participants_url, notice: 'Participant api was successfully destroyed.'
     end
 
     private
