@@ -14,4 +14,4 @@ gemspec
 # gem 'debugger'
 
 gem 'activeresource', '~> 4.0.0'
-gem 'pg'
+gem 'hashids'

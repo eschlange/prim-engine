@@ -2,6 +2,6 @@ require 'active_resource'
 
 module PrimEngine
   class ApiParticipant < ActiveResource::Base
-    self.site = "http://localhost:3001/v1/"
+    self.site = Rails.application.papi_url
   end
 end
