@@ -2,9 +2,7 @@ PrimEngine::Engine.routes.draw do
 
   namespace :api, defaults: { format: 'json' }, path: '' do
     namespace :v1 do
-      resources :api_participants do
-
-      end
+      resources :api_participants
       resources :participants do
         resources :addresses
         resources :date_of_births

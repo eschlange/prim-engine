@@ -1,7 +1,11 @@
 # http://edgeapi.rubyonrails.org/classes/ActionController/StrongParameters.html
 
 module PrimEngine
-  class Participant
+  class Participant < ActiveRecord::Base
+    def to_param  # overridden
+      self.external_id
+    end
+
     has_one :prim_engine_date_of_birth, class_name: 'PrimEngine::DateOfBirth'
     has_one :prim_engine_name, class_name: 'PrimEngine::Name'
     has_one :prim_engine_social_security_number, class_name: 'PrimEngine::SocialSecurityNumber'

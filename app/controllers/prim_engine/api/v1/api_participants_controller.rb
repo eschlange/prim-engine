@@ -15,7 +15,7 @@ module PrimEngine
 
     # GET /api_participants/new
     def new
-      @participant = Participant.new
+      @participant = Participant.build
     end
 
     # GET /api_participants/1/edit

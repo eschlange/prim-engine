@@ -5,5 +5,6 @@
 module PrimEngine
   class ApiIpAddressNumber < ActiveResource::Base
     self.site = Rails.application.papi_url
+    self.prefix = '/participant/:external_id'
   end
 end
