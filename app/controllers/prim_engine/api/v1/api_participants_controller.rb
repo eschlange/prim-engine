@@ -1,4 +1,4 @@
-require_dependency 'prim_engine_api/application_controller'
+require_dependency 'prim_engine/application_controller'
 
 module PrimEngine
   class Api::V1::ApiParticipantsController < ApplicationController
