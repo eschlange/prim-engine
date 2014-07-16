@@ -20,7 +20,7 @@ module PrimEngine
     end
 
     def create
-      @participant = Participant.new(participant_params)
+      @participant = Participant.create
       @participant.external_id = Hashids.new('TODO:salt_here').encrypt(@participant.id)
 
       respond_to do |format|
