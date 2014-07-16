@@ -74,7 +74,7 @@
       <file leaf-file-name="participants_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="607" selection-end="607" vertical-scroll-proportion="0.45762712" vertical-offset="171" max-vertical-offset="1314">
+            <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="1332">
               <folding />
             </state>
           </provider>
@@ -168,7 +168,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
+    <option name="x" value="241" />
     <option name="y" value="211" />
     <option name="width" value="1680" />
     <option name="height" value="971" />
@@ -590,7 +590,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="211" width="1680" height="971" extended-state="0" />
+    <frame x="241" y="211" width="1680" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -920,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/prim_engine/api/v1/participants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="607" selection-end="607" vertical-scroll-proportion="0.45762712" vertical-offset="171" max-vertical-offset="1314">
+        <state line="3" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>

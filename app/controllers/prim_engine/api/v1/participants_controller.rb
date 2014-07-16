@@ -1,4 +1,5 @@
 require_dependency "prim_engine/application_controller"
+require "Hashids"
 
 module PrimEngine
   class Api::V1::ParticipantsController < ApplicationController
