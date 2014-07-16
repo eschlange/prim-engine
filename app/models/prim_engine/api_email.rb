@@ -5,6 +5,5 @@
 module PrimEngine
   class ApiEmail < ActiveResource::Base
     self.site = Rails.application.config.papi_url
-    self.prefix = '/participant/:external_id'
   end
 end
